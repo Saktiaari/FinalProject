@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_koko12</name>
+   <tag></tag>
+   <elementGuidId>414934ab-834c-4bac-976e-50bcc36da59f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.hi-user.containMiniTitle.ng-binding</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;mobile-section&quot;]/ul/li[3]/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1310c69a-1344-458e-9cb6-6e0c5c251e03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ng-show</name>
+      <type>Main</type>
+      <value>userCookie.response</value>
+      <webElementGuid>f8f35d6c-a796-49c4-9dfd-2027c0977bc9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hi-user containMiniTitle ng-binding</value>
+      <webElementGuid>c7cc8f3c-f1de-4826-8fb4-e825fca9c0b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>koko12</value>
+      <webElementGuid>81407816-d4d4-4652-a462-2dc9c1ce97a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menuUserLink&quot;)/span[@class=&quot;hi-user containMiniTitle ng-binding&quot;]</value>
+      <webElementGuid>d02491c3-126c-4f49-9668-4b8bb9773b18</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='menuUserLink']/span</value>
+      <webElementGuid>92cde0c9-cb2e-4101-a33e-93be44cf97cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$0.00'])[1]/following::span[1]</value>
+      <webElementGuid>433ca1f6-3df9-4298-8533-8e2833eb09d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My account'])[2]/preceding::span[1]</value>
+      <webElementGuid>4cfa9c3a-8b43-4b4a-ba04-5d34501bb89b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My orders'])[2]/preceding::span[1]</value>
+      <webElementGuid>1585d30f-f9ab-481d-95fe-7a2aad758826</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nav/ul/li[3]/a/span</value>
+      <webElementGuid>cd8d230e-bb86-478a-8969-eccd3d8c45b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'koko12' or . = 'koko12')]</value>
+      <webElementGuid>23f2ae8e-9bc4-4c75-bb9e-adb63b55877d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

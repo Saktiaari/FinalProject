@@ -4,5 +4,18 @@
    <name>Search Product</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a0339ef3-aa07-4ea7-b5c9-a6fb465ceb06</testCaseGuid>
+   <testCaseGuid>37ed8bf5-75db-4576-90f4-3adab1a1c497</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f9c5f5fd-23c1-4aab-99f1-fc4bdf550a84</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'HP'</defaultValue>
+      <description></description>
+      <id>f9c5f5fd-23c1-4aab-99f1-fc4bdf550a84</id>
+      <masked>false</masked>
+      <name>Pencarian</name>
+   </variable>
 </TestCaseEntity>

@@ -4,5 +4,31 @@
    <name>Login</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>defedf48-2c5b-468a-a8dc-046c1b1f4fb4</testCaseGuid>
+   <testCaseGuid>da0ba0cc-8aad-499d-81b6-27f1cd6cde5e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8a24573f-b0cc-411c-8b31-d9dde6d811ab</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e4eac892-e595-4534-91bf-c181608336b7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'dika12'</defaultValue>
+      <description></description>
+      <id>8a24573f-b0cc-411c-8b31-d9dde6d811ab</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Dika12'</defaultValue>
+      <description></description>
+      <id>e4eac892-e595-4534-91bf-c181608336b7</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
 </TestCaseEntity>
