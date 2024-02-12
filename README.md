@@ -5,7 +5,7 @@
 2. Navigate ke URL (url dengan global variabel)
 3. Klik menu user
 4. Klik create new account
-5. Input username, email, password, confirm password
+5. Input username, email, password, confirm password (data dari data files dan username,email,password, confirm password dimasukkan variable lokal)
 6. Ambil nilai atribut username, email, password, confirm password
 7. Berikan kondisi jika username dan email dan password dan confirm password tidak kosong lakukan ceklist agreement dan klik register. else tampilkan tulisan "isi data dulu bos"
 8. Definisikan verifikasi keterlihatan elemen nama akun pada menu user
@@ -13,14 +13,14 @@
 
 ## Login
 1. Buka browser
-2. Navigate ke URL
+2. Navigate ke URL (url dengan global variabel)
 3. Klik menu user
-4. Input username dan password
+4. Input username dan password (data dari data files dan username, password dimasukkan variable lokal)
 5. Klik tombol sign in
 
 ## Profile Update
 1. Buka browser
-2. Navigate ke URL
+2. Navigate ke URL (url dengan global variabel)
 3. Klik menu user
 4. Input username dan password
 5. Klik tombol sign in
@@ -32,11 +32,11 @@
 
 ## Search Product
 1. Buka browser
-2. Navigate ke URL
+2. Navigate ke URL (url dengan global variabel)
 3. Klik menu user
 4. Input username dan password
 5. Klik tombol sign in
-6. Definisikan variabel search dengan nilai "Pencarian"
+6. Definisikan variabel search dengan nilai "Pencarian" (input pencarian dari data files dan pencarian dalam variable local)
 7. Menggunakan pernyataan switch untuk memeriksa nilai variabel search
 8. Jika nilai search adalah “HP”, maka kita melakukan langkah-langkah berikut :
    1. Input pada pencarian "HP"
@@ -112,3 +112,6 @@
 17. Input username safepay
 18. Input password safepay
 19. Klik pay now 
+
+link Gdrive https://drive.google.com/drive/folders/1nPLmcfempV0uPGLEBry3Co-VgXLVYOPp?usp=sharing
+link Test coverage https://docs.google.com/spreadsheets/d/1UR4AoKHbkVfhmgrscl7-0mKcEmdIf2WP7JNDmEwx64g/edit#gid=0
