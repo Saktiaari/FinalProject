@@ -16,11 +16,20 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Search Product</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f60a0ffe-f13b-4687-b671-d5a8cb5cd007</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Search</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>f60a0ffe-f13b-4687-b671-d5a8cb5cd007</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Pencarian</value>
          <variableId>f9c5f5fd-23c1-4aab-99f1-fc4bdf550a84</variableId>
       </variableLink>
    </testCaseLink>

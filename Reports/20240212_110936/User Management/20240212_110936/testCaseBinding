@@ -1,0 +1,7 @@
+{"testCaseName":"Test Cases/Registration","testCaseId":"Test Cases/Registration","iterationVariableName":"","bindedValues":{"Email":"\u0027cikalkun12@gmail.com\u0027","Username":"\u0027Cikal1\u0027","Confirm_Password":"\u0027Cikal123\u0027","Password":"\u0027Cikal123\u0027"}}
+{"testCaseName":"Test Cases/Registration","testCaseId":"Test Cases/Registration","iterationVariableName":"","bindedValues":{"Email":"\u0027Fariz12\u0027","Username":"\u0027Fariz123\u0027","Confirm_Password":"\u0027Fariz123\u0027","Password":"\u0027Fariz123\u0027"}}
+{"testCaseName":"Test Cases/Registration","testCaseId":"Test Cases/Registration","iterationVariableName":"","bindedValues":{"Email":"\u0027dika12@gmail.com\u0027","Username":"\u0027dika12\u0027","Confirm_Password":"\u0027Dika123\u0027","Password":"\u0027Dika123\u0027"}}
+{"testCaseName":"Test Cases/Profile Update","testCaseId":"Test Cases/Profile Update","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login","testCaseId":"Test Cases/Login","iterationVariableName":"","bindedValues":{"password":"\u0027Cikal123\u0027","username":"\u0027Cikal1\u0027"}}
+{"testCaseName":"Test Cases/Login","testCaseId":"Test Cases/Login","iterationVariableName":"","bindedValues":{"password":"\u0027Fariz123\u0027","username":"\u0027Fariz123\u0027"}}
+{"testCaseName":"Test Cases/Login","testCaseId":"Test Cases/Login","iterationVariableName":"","bindedValues":{"password":"\u0027Dika123\u0027","username":"\u0027dika12\u0027"}}

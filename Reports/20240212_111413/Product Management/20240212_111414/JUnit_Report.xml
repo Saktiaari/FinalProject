@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Product Management" time="532.661" tests="6" failures="1" errors="0">
+   <testsuite name="Product Management" tests="6" failures="1" errors="0" time="532.661" skipped="0" timestamp="12-02-2024T11:14:17" hostname="rizky - Rizky" id="Test Suites/Product Management">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rizky\\git\\FinalProject\\Reports\\20240212_111413\\Product Management\\20240212_111414"/>
+         <property name="logFiles" value="C:\\Users\\rizky\\git\\FinalProject\\Reports\\20240212_111413\\Product Management\\20240212_111414\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\rizky\\git\\FinalProject\\Reports\\20240212_111413\\Product Management\\20240212_111414\\1707711444059.png, C:\\Users\\rizky\\git\\FinalProject\\Reports\\20240212_111413\\Product Management\\20240212_111414\\1707711520875.png, C:\\Users\\rizky\\git\\FinalProject\\Reports\\20240212_111413\\Product Management\\20240212_111414\\1707711596589.png, C:\\Users\\rizky\\git\\FinalProject\\Reports\\20240212_111413\\Product Management\\20240212_111414\\1707711673846.png"/>
+         <property name="hostName" value="rizky - Rizky"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="172.16.213.208"/>
+         <property name="sessionId" value="bb8412926bd41bac82f1d463ee5a2be7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Search Product" time="19.56" classname="Test Cases/Search Product" status="PASSED">
+         <system-out><![CDATA[12-02-2024T11:14:17 - [TEST_CASE][PASSED] - Test Cases/Search Product: Test Cases/Search Product
+
+12-02-2024T11:14:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T11:14:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T11:14:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T11:14:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T11:14:19 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:14:22 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:14:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Search/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T11:14:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T11:14:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/Page_Advantage Shopping/input_OR_username"), "dika12"): Text 'dika12' is set on object 'Object Repository/Search/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:14:27 - [MESSAGE][PASSED] - Text 'dika12' is set on object 'Object Repository/Search/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:14:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Search/Page_Advantage Shopping/input_Username_password"), "fXA3uZeumTE="): Text ****** has been set on object 'Object Repository/Search/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:14:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Search/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:14:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/Page_Advantage Shopping/button_SIGN IN")): Object: 'Object Repository/Search/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T11:14:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T11:14:29 - [TEST_STEP][PASSED] - search = Pencarian: null
+
+12-02-2024T11:14:29 - [TEST_STEP][PASSED] - switch (search): null
+
+12-02-2024T11:14:29 - [TEST_STEP][PASSED] - case search = "HP":: null
+
+12-02-2024T11:14:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search"), "HP"): Text 'HP' is set on object 'Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'
+
+12-02-2024T11:14:30 - [MESSAGE][PASSED] - Text 'HP' is set on object 'Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'
+
+12-02-2024T11:14:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'
+
+12-02-2024T11:14:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'
+
+12-02-2024T11:14:35 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/checklist Laptop")): Object 'Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/checklist Laptop' is checked
+
+12-02-2024T11:14:37 - [MESSAGE][PASSED] - Object 'Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/checklist Laptop' is checked
+
+12-02-2024T11:14:37 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search Product" time="61.121" classname="Test Cases/Search Product" status="PASSED">
+         <system-out><![CDATA[12-02-2024T11:14:37 - [TEST_CASE][PASSED] - Test Cases/Search Product: Test Cases/Search Product
+
+12-02-2024T11:14:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T11:14:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T11:14:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T11:14:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T11:14:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T11:14:38 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:14:41 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:14:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Search/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T11:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T11:14:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/Page_Advantage Shopping/input_OR_username"), "dika12"): Text 'dika12' is set on object 'Object Repository/Search/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:14:47 - [MESSAGE][PASSED] - Text 'dika12' is set on object 'Object Repository/Search/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:14:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Search/Page_Advantage Shopping/input_Username_password"), "fXA3uZeumTE="): Text ****** has been set on object 'Object Repository/Search/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:14:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Search/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:14:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/Page_Advantage Shopping/button_SIGN IN")): Object: 'Object Repository/Search/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T11:14:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T11:14:49 - [TEST_STEP][PASSED] - search = Pencarian: null
+
+12-02-2024T11:14:49 - [TEST_STEP][PASSED] - switch (search): null
+
+12-02-2024T11:14:49 - [TEST_STEP][PASSED] - case search = "Bose":: null
+
+12-02-2024T11:14:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search"), "Bose"): Text 'Bose' is set on object 'Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'
+
+12-02-2024T11:14:50 - [MESSAGE][PASSED] - Text 'Bose' is set on object 'Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'
+
+12-02-2024T11:14:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'
+
+12-02-2024T11:14:57 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'
+
+12-02-2024T11:14:57 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/Checklist Speaker")): Object 'Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/Checklist Speaker' is checked
+
+12-02-2024T11:15:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//input[@name='category'])[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+12-02-2024T11:15:30 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/Checklist Speaker'. Try using Self-healing.
+
+12-02-2024T11:15:32 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(//input[@name='category'])[4]'.
+
+12-02-2024T11:15:34 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='mobileSlide']/ul/li/div/div[4]/div/input'.
+
+12-02-2024T11:15:36 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[4]/div/input'.
+
+12-02-2024T11:15:38 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//input[@name = 'category' and @type = 'checkbox']'.
+
+12-02-2024T11:15:38 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/rizky/git/FinalProject/Reports/Self-healing/Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/Checklist Speaker_customAttributes.png
+
+12-02-2024T11:15:38 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/Checklist Speaker' was broken. Propose an alternative one: '//input[@name = 'category' and @type = 'checkbox']'.
+
+12-02-2024T11:15:38 - [MESSAGE][PASSED] - Object 'Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/Checklist Speaker' is checked
+
+12-02-2024T11:15:38 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search Product" time="25.281" classname="Test Cases/Search Product" status="PASSED">
+         <system-out><![CDATA[12-02-2024T11:15:38 - [TEST_CASE][PASSED] - Test Cases/Search Product: Test Cases/Search Product
+
+12-02-2024T11:15:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T11:15:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T11:15:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T11:15:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T11:15:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T11:15:39 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:15:42 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:15:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Search/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T11:15:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T11:15:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/Page_Advantage Shopping/input_OR_username"), "dika12"): Text 'dika12' is set on object 'Object Repository/Search/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:15:48 - [MESSAGE][PASSED] - Text 'dika12' is set on object 'Object Repository/Search/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:15:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Search/Page_Advantage Shopping/input_Username_password"), "fXA3uZeumTE="): Text ****** has been set on object 'Object Repository/Search/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:15:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Search/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:15:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/Page_Advantage Shopping/button_SIGN IN")): Object: 'Object Repository/Search/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T11:15:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T11:15:50 - [TEST_STEP][PASSED] - search = Pencarian: null
+
+12-02-2024T11:15:50 - [TEST_STEP][PASSED] - switch (search): null
+
+12-02-2024T11:15:50 - [TEST_STEP][PASSED] - case search = "Logitech":: null
+
+12-02-2024T11:15:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search"), "Logitech"): Text 'Logitech' is set on object 'Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'
+
+12-02-2024T11:15:51 - [MESSAGE][PASSED] - Text 'Logitech' is set on object 'Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'
+
+12-02-2024T11:15:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'
+
+12-02-2024T11:16:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'
+
+12-02-2024T11:16:02 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/Checklist Headphone")): Object 'Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/Checklist Headphone' is checked
+
+12-02-2024T11:16:03 - [MESSAGE][PASSED] - Object 'Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/Checklist Headphone' is checked
+
+12-02-2024T11:16:03 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add product" time="77.477" classname="Test Cases/Add product" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Add product FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Add chart/Page_Advantage Shopping/path'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at Add product.run(Add product:35)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1707711254732.run(TempTestSuite1707711254732.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;path fill=&quot;#313131&quot; d=&quot;M9,20c-1.1,0-2,0.9-2,2c0,1.1,0.9,2,2,2c1.1,0,2-0.9,2-2C11,20.9,10.1,20,9,20z M19,20c-1.1,0-2,0.9-2,2&#xa;        c0,1.1,0.9,2,2,2s2-0.9,2-2C21,20.9,20.1,20,19,20z M8.3,15h12.5L24,4H5.5L4.8,1H0v2h3.2l4,16H21v-2H8.8L8.3,15z M6,6h15.3l-2,7&#xa;        H7.8L6,6z&quot;>&lt;/path> is not clickable at point (431, 593). Other element would receive the click: &lt;svg id=&quot;menuCart&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; x=&quot;0px&quot; y=&quot;0px&quot; width=&quot;24px&quot; height=&quot;24px&quot; viewBox=&quot;0 0 24 24&quot; enable-background=&quot;new 0 0 24 24&quot; xml:space=&quot;preserve&quot; icon-cart-svg=&quot;&quot; style=&quot;width: 18px; height: 18px;&quot;>...&lt;/svg>&#xa;  (Session info: chrome=121.0.6167.161)&#xa;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xa;System info: host: 'RIZKY', ip: '172.16.213.208', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\rizky\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: a1be54b1ebf2929780e764ffefc09748&#xa;	at jdk.internal.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)&#xa;	at org.openqa.selenium.WebElement$click.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[12-02-2024T11:19:56 - [TEST_CASE][FAILED] - Test Cases/Add product: Test Cases/Add product FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Add chart/Page_Advantage Shopping/path'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Add product.run(Add product:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707711254732.run(TempTestSuite1707711254732.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <path fill="#313131" d="M9,20c-1.1,0-2,0.9-2,2c0,1.1,0.9,2,2,2c1.1,0,2-0.9,2-2C11,20.9,10.1,20,9,20z M19,20c-1.1,0-2,0.9-2,2
+        c0,1.1,0.9,2,2,2s2-0.9,2-2C21,20.9,20.1,20,19,20z M8.3,15h12.5L24,4H5.5L4.8,1H0v2h3.2l4,16H21v-2H8.8L8.3,15z M6,6h15.3l-2,7
+        H7.8L6,6z"></path> is not clickable at point (431, 593). Other element would receive the click: <svg id="menuCart" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" icon-cart-svg="" style="width: 18px; height: 18px;">...</svg>
+  (Session info: chrome=121.0.6167.161)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'RIZKY', ip: '172.16.213.208', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\rizky\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a1be54b1ebf2929780e764ffefc09748
+	at jdk.internal.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+12-02-2024T11:19:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T11:19:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T11:19:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T11:19:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T11:19:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T11:19:57 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:20:00 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:20:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add chart/Page_Advantage Shopping/a_My account                        My orde_124641")): Object: 'Object Repository/Add chart/Page_Advantage Shopping/a_My account                        My orde_124641' is clicked on
+
+12-02-2024T11:20:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Add chart/Page_Advantage Shopping/a_My account                        My orde_124641' is clicked on
+
+12-02-2024T11:20:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Add chart/Page_Advantage Shopping/input_OR_username"), "dika12"): Text 'dika12' is set on object 'Object Repository/Add chart/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:20:05 - [MESSAGE][PASSED] - Text 'dika12' is set on object 'Object Repository/Add chart/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:20:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Add chart/Page_Advantage Shopping/input_Username_password"), "fXA3uZeumTE="): Text ****** has been set on object 'Object Repository/Add chart/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:20:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Add chart/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:20:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Add chart/Page_Advantage Shopping/input_Username_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Add chart/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:20:06 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Add chart/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:20:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add chart/Page_Advantage Shopping/div_TABLETS                        Shop Now")): Object: 'Object Repository/Add chart/Page_Advantage Shopping/div_TABLETS                        Shop Now' is clicked on
+
+12-02-2024T11:20:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Add chart/Page_Advantage Shopping/div_TABLETS                        Shop Now' is clicked on
+
+12-02-2024T11:20:10 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Add chart/Page_Advantage Shopping/path")): Unable to click on object 'Object Repository/Add chart/Page_Advantage Shopping/path' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Add chart/Page_Advantage Shopping/path'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Add product.run(Add product:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707711254732.run(TempTestSuite1707711254732.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <path fill="#313131" d="M9,20c-1.1,0-2,0.9-2,2c0,1.1,0.9,2,2,2c1.1,0,2-0.9,2-2C11,20.9,10.1,20,9,20z M19,20c-1.1,0-2,0.9-2,2
+        c0,1.1,0.9,2,2,2s2-0.9,2-2C21,20.9,20.1,20,19,20z M8.3,15h12.5L24,4H5.5L4.8,1H0v2h3.2l4,16H21v-2H8.8L8.3,15z M6,6h15.3l-2,7
+        H7.8L6,6z"></path> is not clickable at point (431, 593). Other element would receive the click: <svg id="menuCart" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" icon-cart-svg="" style="width: 18px; height: 18px;">...</svg>
+  (Session info: chrome=121.0.6167.161)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'RIZKY', ip: '172.16.213.208', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\rizky\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a1be54b1ebf2929780e764ffefc09748
+	at jdk.internal.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1707639607362.run(Script1707639607362.groovy:35)
+	... 18 more
+)
+
+12-02-2024T11:20:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+12-02-2024T11:20:41 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Add chart/Page_Advantage Shopping/path'. Try using Self-healing.
+
+12-02-2024T11:20:41 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Add chart/Page_Advantage Shopping/path' was broken. Propose an alternative one: 'div.AddToCard > #menuCart > path'.
+
+12-02-2024T11:21:14 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Add chart/Page_Advantage Shopping/path' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Add chart/Page_Advantage Shopping/path'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Add product.run(Add product:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707711254732.run(TempTestSuite1707711254732.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <path fill="#313131" d="M9,20c-1.1,0-2,0.9-2,2c0,1.1,0.9,2,2,2c1.1,0,2-0.9,2-2C11,20.9,10.1,20,9,20z M19,20c-1.1,0-2,0.9-2,2
+        c0,1.1,0.9,2,2,2s2-0.9,2-2C21,20.9,20.1,20,19,20z M8.3,15h12.5L24,4H5.5L4.8,1H0v2h3.2l4,16H21v-2H8.8L8.3,15z M6,6h15.3l-2,7
+        H7.8L6,6z"></path> is not clickable at point (431, 593). Other element would receive the click: <svg id="menuCart" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" icon-cart-svg="" style="width: 18px; height: 18px;">...</svg>
+  (Session info: chrome=121.0.6167.161)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'RIZKY', ip: '172.16.213.208', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\rizky\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a1be54b1ebf2929780e764ffefc09748
+	at jdk.internal.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1707639607362.run(Script1707639607362.groovy:35)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\rizky\\git\\FinalProject\\Reports\\20240212_111413\\Product Management\\20240212_111414\\1707711673846.png]]]]></system-out>
+         <system-err><![CDATA[12-02-2024T11:19:56 - [TEST_CASE][FAILED] - Test Cases/Add product: Test Cases/Add product FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Add chart/Page_Advantage Shopping/path'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Add product.run(Add product:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707711254732.run(TempTestSuite1707711254732.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <path fill="#313131" d="M9,20c-1.1,0-2,0.9-2,2c0,1.1,0.9,2,2,2c1.1,0,2-0.9,2-2C11,20.9,10.1,20,9,20z M19,20c-1.1,0-2,0.9-2,2
+        c0,1.1,0.9,2,2,2s2-0.9,2-2C21,20.9,20.1,20,19,20z M8.3,15h12.5L24,4H5.5L4.8,1H0v2h3.2l4,16H21v-2H8.8L8.3,15z M6,6h15.3l-2,7
+        H7.8L6,6z"></path> is not clickable at point (431, 593). Other element would receive the click: <svg id="menuCart" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" icon-cart-svg="" style="width: 18px; height: 18px;">...</svg>
+  (Session info: chrome=121.0.6167.161)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'RIZKY', ip: '172.16.213.208', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\rizky\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a1be54b1ebf2929780e764ffefc09748
+	at jdk.internal.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Check Chart" time="62.473" classname="Test Cases/Check Chart" status="PASSED">
+         <system-out><![CDATA[12-02-2024T11:21:14 - [TEST_CASE][PASSED] - Test Cases/Check Chart: Test Cases/Check Chart
+
+12-02-2024T11:21:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T11:21:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T11:21:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T11:21:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T11:21:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T11:21:15 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:21:18 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:21:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T11:21:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T11:21:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/input_OR_username"), "dika12"): Text 'dika12' is set on object 'Object Repository/Checkout/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:21:24 - [MESSAGE][PASSED] - Text 'dika12' is set on object 'Object Repository/Checkout/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:21:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/input_Username_password"), "fXA3uZeumTE="): Text ****** has been set on object 'Object Repository/Checkout/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:21:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Checkout/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:21:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/input_Username_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Checkout/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:21:26 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Checkout/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:21:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/div_TABLETS                        Shop Now")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/div_TABLETS                        Shop Now' is clicked on
+
+12-02-2024T11:21:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/div_TABLETS                        Shop Now' is clicked on
+
+12-02-2024T11:21:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart' is clicked on
+
+12-02-2024T11:21:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart' is clicked on
+
+12-02-2024T11:21:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/span_Color_rabbit")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/span_Color_rabbit' is clicked on
+
+12-02-2024T11:21:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/span_Color_rabbit' is clicked on
+
+12-02-2024T11:21:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/div_Quantity_plus")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/div_Quantity_plus' is clicked on
+
+12-02-2024T11:21:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/div_Quantity_plus' is clicked on
+
+12-02-2024T11:21:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART' is clicked on
+
+12-02-2024T11:21:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART' is clicked on
+
+12-02-2024T11:21:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart' is clicked on
+
+12-02-2024T11:22:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='SHOP NOW'])[3]/following::*[name()='svg'][1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+12-02-2024T11:22:04 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart'. Try using Self-healing.
+
+12-02-2024T11:22:06 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='SHOP NOW'])[3]/following::*[name()='svg'][1]'.
+
+12-02-2024T11:22:08 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='SOLD OUT'])[3]/following::*[name()='svg'][1]'.
+
+12-02-2024T11:22:10 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='HP Pro Tablet 608 G1'])[1]/preceding::*[name()='svg'][1]'.
+
+12-02-2024T11:22:12 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='$479.00'])[1]/preceding::*[name()='svg'][1]'.
+
+12-02-2024T11:22:14 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//svg[@id = 'menuCart']'.
+
+12-02-2024T11:22:16 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/rizky/git/FinalProject/Reports/Self-healing/Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart_BASIC.png
+
+12-02-2024T11:22:16 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart' was broken. Propose an alternative one: '//*[@id = 'menuCart']'.
+
+12-02-2024T11:22:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit chart" time="53.802" classname="Test Cases/Edit chart" status="PASSED">
+         <system-out><![CDATA[12-02-2024T11:22:16 - [TEST_CASE][PASSED] - Test Cases/Edit chart: Test Cases/Edit chart
+
+12-02-2024T11:22:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T11:22:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T11:22:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T11:22:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T11:22:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T11:22:17 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:22:20 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:22:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T11:22:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T11:22:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/input_OR_username"), "dika12"): Text 'dika12' is set on object 'Object Repository/Checkout/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:22:26 - [MESSAGE][PASSED] - Text 'dika12' is set on object 'Object Repository/Checkout/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:22:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/input_Username_password"), "fXA3uZeumTE="): Text ****** has been set on object 'Object Repository/Checkout/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:22:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Checkout/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:22:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/input_Username_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Checkout/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:22:28 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Checkout/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:22:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/div_TABLETS                        Shop Now")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/div_TABLETS                        Shop Now' is clicked on
+
+12-02-2024T11:22:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/div_TABLETS                        Shop Now' is clicked on
+
+12-02-2024T11:22:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart' is clicked on
+
+12-02-2024T11:22:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart' is clicked on
+
+12-02-2024T11:22:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/span_Color_rabbit")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/span_Color_rabbit' is clicked on
+
+12-02-2024T11:22:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/span_Color_rabbit' is clicked on
+
+12-02-2024T11:22:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/div_Quantity_plus")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/div_Quantity_plus' is clicked on
+
+12-02-2024T11:22:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/div_Quantity_plus' is clicked on
+
+12-02-2024T11:22:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART' is clicked on
+
+12-02-2024T11:22:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART' is clicked on
+
+12-02-2024T11:22:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart' is clicked on
+
+12-02-2024T11:23:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='SHOP NOW'])[3]/following::*[name()='svg'][1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+12-02-2024T11:23:07 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart'. Try using Self-healing.
+
+12-02-2024T11:23:07 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart' was broken. Propose an alternative one: '//*[@id = 'menuCart']'.
+
+12-02-2024T11:23:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart' is clicked on
+
+12-02-2024T11:23:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/a_EDIT")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/a_EDIT' is clicked on
+
+12-02-2024T11:23:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/a_EDIT' is clicked on
+
+12-02-2024T11:23:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/div_Quantity_minus")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/div_Quantity_minus' is clicked on
+
+12-02-2024T11:23:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/div_Quantity_minus' is clicked on
+
+12-02-2024T11:23:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART' is clicked on
+
+12-02-2024T11:23:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T11:14:17 - [TEST_SUITE][FAILED] - Product Management: Test Cases/Add product FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Add chart/Page_Advantage Shopping/path'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Add product.run(Add product:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707711254732.run(TempTestSuite1707711254732.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <path fill="#313131" d="M9,20c-1.1,0-2,0.9-2,2c0,1.1,0.9,2,2,2c1.1,0,2-0.9,2-2C11,20.9,10.1,20,9,20z M19,20c-1.1,0-2,0.9-2,2
+        c0,1.1,0.9,2,2,2s2-0.9,2-2C21,20.9,20.1,20,19,20z M8.3,15h12.5L24,4H5.5L4.8,1H0v2h3.2l4,16H21v-2H8.8L8.3,15z M6,6h15.3l-2,7
+        H7.8L6,6z"></path> is not clickable at point (431, 407). Other element would receive the click: <svg id="menuCart" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" icon-cart-svg="" style="width: 18px; height: 18px;">...</svg>
+  (Session info: chrome=121.0.6167.161)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'RIZKY', ip: '172.16.213.208', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\rizky\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58180}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 779c7957673292f427978f10c9538cce
+	at jdk.internal.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[12-02-2024T11:14:17 - [TEST_SUITE][FAILED] - Product Management: Test Cases/Add product FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Add chart/Page_Advantage Shopping/path'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Add product.run(Add product:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707711254732.run(TempTestSuite1707711254732.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <path fill="#313131" d="M9,20c-1.1,0-2,0.9-2,2c0,1.1,0.9,2,2,2c1.1,0,2-0.9,2-2C11,20.9,10.1,20,9,20z M19,20c-1.1,0-2,0.9-2,2
+        c0,1.1,0.9,2,2,2s2-0.9,2-2C21,20.9,20.1,20,19,20z M8.3,15h12.5L24,4H5.5L4.8,1H0v2h3.2l4,16H21v-2H8.8L8.3,15z M6,6h15.3l-2,7
+        H7.8L6,6z"></path> is not clickable at point (431, 407). Other element would receive the click: <svg id="menuCart" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" icon-cart-svg="" style="width: 18px; height: 18px;">...</svg>
+  (Session info: chrome=121.0.6167.161)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'RIZKY', ip: '172.16.213.208', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\rizky\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58180}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 779c7957673292f427978f10c9538cce
+	at jdk.internal.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

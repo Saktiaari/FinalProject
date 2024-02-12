@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Product Management" time="145.753" tests="6" failures="0" errors="0">
+   <testsuite name="Product Management" tests="6" failures="0" errors="0" time="145.753" skipped="0" timestamp="12-02-2024T11:55:21" hostname="rizky - Rizky" id="Test Suites/Product Management">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rizky\\git\\FinalProject\\Reports\\20240212_115517\\Product Management\\20240212_115518"/>
+         <property name="logFiles" value="C:\\Users\\rizky\\git\\FinalProject\\Reports\\20240212_115517\\Product Management\\20240212_115518\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rizky - Rizky"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="172.16.213.208"/>
+         <property name="sessionId" value="509d076ac53d921f016a942febef4f4e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Search Product" time="23.216" classname="Test Cases/Search Product" status="PASSED">
+         <system-out><![CDATA[12-02-2024T11:55:21 - [TEST_CASE][PASSED] - Test Cases/Search Product: Test Cases/Search Product
+
+12-02-2024T11:55:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T11:55:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T11:55:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T11:55:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T11:55:23 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:55:26 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:55:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Search/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T11:55:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T11:55:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/Page_Advantage Shopping/input_OR_username"), "dika12"): Text 'dika12' is set on object 'Object Repository/Search/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:55:32 - [MESSAGE][PASSED] - Text 'dika12' is set on object 'Object Repository/Search/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:55:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Search/Page_Advantage Shopping/input_Username_password"), "fXA3uZeumTE="): Text ****** has been set on object 'Object Repository/Search/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:55:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Search/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:55:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/Page_Advantage Shopping/button_SIGN IN")): Object: 'Object Repository/Search/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T11:55:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T11:55:34 - [TEST_STEP][PASSED] - search = Pencarian: null
+
+12-02-2024T11:55:34 - [TEST_STEP][PASSED] - switch (search): null
+
+12-02-2024T11:55:34 - [TEST_STEP][PASSED] - case search = "HP":: null
+
+12-02-2024T11:55:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search"), "HP"): Text 'HP' is set on object 'Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'
+
+12-02-2024T11:55:36 - [MESSAGE][PASSED] - Text 'HP' is set on object 'Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'
+
+12-02-2024T11:55:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'
+
+12-02-2024T11:55:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'
+
+12-02-2024T11:55:42 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/checklist Laptop")): Object 'Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/checklist Laptop' is checked
+
+12-02-2024T11:55:45 - [MESSAGE][PASSED] - Object 'Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/checklist Laptop' is checked
+
+12-02-2024T11:55:45 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search Product" time="27.94" classname="Test Cases/Search Product" status="PASSED">
+         <system-out><![CDATA[12-02-2024T11:55:45 - [TEST_CASE][PASSED] - Test Cases/Search Product: Test Cases/Search Product
+
+12-02-2024T11:55:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T11:55:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T11:55:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T11:55:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T11:55:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T11:55:45 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:55:48 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:55:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Search/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T11:55:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T11:55:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/Page_Advantage Shopping/input_OR_username"), "dika12"): Text 'dika12' is set on object 'Object Repository/Search/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:55:55 - [MESSAGE][PASSED] - Text 'dika12' is set on object 'Object Repository/Search/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:55:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Search/Page_Advantage Shopping/input_Username_password"), "fXA3uZeumTE="): Text ****** has been set on object 'Object Repository/Search/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:55:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Search/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:55:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/Page_Advantage Shopping/button_SIGN IN")): Object: 'Object Repository/Search/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T11:55:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T11:55:56 - [TEST_STEP][PASSED] - search = Pencarian: null
+
+12-02-2024T11:55:56 - [TEST_STEP][PASSED] - switch (search): null
+
+12-02-2024T11:55:56 - [TEST_STEP][PASSED] - case search = "Bose":: null
+
+12-02-2024T11:55:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search"), "Bose"): Text 'Bose' is set on object 'Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'
+
+12-02-2024T11:56:03 - [MESSAGE][PASSED] - Text 'Bose' is set on object 'Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'
+
+12-02-2024T11:56:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'
+
+12-02-2024T11:56:10 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'
+
+12-02-2024T11:56:10 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/Page_Advantage Shopping/Speaker_Bose")): Object 'Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/Page_Advantage Shopping/Speaker_Bose' is checked
+
+12-02-2024T11:56:13 - [MESSAGE][PASSED] - Object 'Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/Page_Advantage Shopping/Speaker_Bose' is checked
+
+12-02-2024T11:56:13 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search Product" time="30.209" classname="Test Cases/Search Product" status="PASSED">
+         <system-out><![CDATA[12-02-2024T11:56:13 - [TEST_CASE][PASSED] - Test Cases/Search Product: Test Cases/Search Product
+
+12-02-2024T11:56:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T11:56:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T11:56:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T11:56:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T11:56:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T11:56:13 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:56:17 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:56:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Search/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T11:56:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T11:56:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/Page_Advantage Shopping/input_OR_username"), "dika12"): Text 'dika12' is set on object 'Object Repository/Search/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:56:23 - [MESSAGE][PASSED] - Text 'dika12' is set on object 'Object Repository/Search/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:56:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Search/Page_Advantage Shopping/input_Username_password"), "fXA3uZeumTE="): Text ****** has been set on object 'Object Repository/Search/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:56:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Search/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:56:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/Page_Advantage Shopping/button_SIGN IN")): Object: 'Object Repository/Search/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T11:56:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+12-02-2024T11:56:25 - [TEST_STEP][PASSED] - search = Pencarian: null
+
+12-02-2024T11:56:25 - [TEST_STEP][PASSED] - switch (search): null
+
+12-02-2024T11:56:25 - [TEST_STEP][PASSED] - case search = "Logitech":: null
+
+12-02-2024T11:56:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search"), "Logitech"): Text 'Logitech' is set on object 'Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'
+
+12-02-2024T11:56:28 - [MESSAGE][PASSED] - Text 'Logitech' is set on object 'Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'
+
+12-02-2024T11:56:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'
+
+12-02-2024T11:56:39 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'
+
+12-02-2024T11:56:39 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/Page_Advantage Shopping/mice_logitech")): Object 'Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/Page_Advantage Shopping/mice_logitech' is checked
+
+12-02-2024T11:56:43 - [MESSAGE][PASSED] - Object 'Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/Page_Advantage Shopping/mice_logitech' is checked
+
+12-02-2024T11:56:43 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add product" time="18.222" classname="Test Cases/Add product" status="PASSED">
+         <system-out><![CDATA[12-02-2024T11:56:43 - [TEST_CASE][PASSED] - Test Cases/Add product: Test Cases/Add product
+
+12-02-2024T11:56:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T11:56:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T11:56:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T11:56:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T11:56:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T11:56:44 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:56:46 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:56:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add chart/Page_Advantage Shopping/a_My account                        My orde_124641")): Object: 'Object Repository/Add chart/Page_Advantage Shopping/a_My account                        My orde_124641' is clicked on
+
+12-02-2024T11:56:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Add chart/Page_Advantage Shopping/a_My account                        My orde_124641' is clicked on
+
+12-02-2024T11:56:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Add chart/Page_Advantage Shopping/input_OR_username"), "dika12"): Text 'dika12' is set on object 'Object Repository/Add chart/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:56:51 - [MESSAGE][PASSED] - Text 'dika12' is set on object 'Object Repository/Add chart/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:56:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Add chart/Page_Advantage Shopping/input_Username_password"), "fXA3uZeumTE="): Text ****** has been set on object 'Object Repository/Add chart/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:56:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Add chart/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:56:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Add chart/Page_Advantage Shopping/input_Username_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Add chart/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:56:53 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Add chart/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:56:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add chart/Page_Advantage Shopping/div_TABLETS                        Shop Now")): Object: 'Object Repository/Add chart/Page_Advantage Shopping/div_TABLETS                        Shop Now' is clicked on
+
+12-02-2024T11:56:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Add chart/Page_Advantage Shopping/div_TABLETS                        Shop Now' is clicked on
+
+12-02-2024T11:56:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart' is clicked on
+
+12-02-2024T11:56:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart' is clicked on
+
+12-02-2024T11:56:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/span_Color_rabbit")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/span_Color_rabbit' is clicked on
+
+12-02-2024T11:57:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/span_Color_rabbit' is clicked on
+
+12-02-2024T11:57:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/div_Quantity_plus")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/div_Quantity_plus' is clicked on
+
+12-02-2024T11:57:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/div_Quantity_plus' is clicked on
+
+12-02-2024T11:57:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART' is clicked on
+
+12-02-2024T11:57:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Check Chart" time="21.758" classname="Test Cases/Check Chart" status="PASSED">
+         <system-out><![CDATA[12-02-2024T11:57:01 - [TEST_CASE][PASSED] - Test Cases/Check Chart: Test Cases/Check Chart
+
+12-02-2024T11:57:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T11:57:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T11:57:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T11:57:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T11:57:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T11:57:02 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:57:05 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:57:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T11:57:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T11:57:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/input_OR_username"), "dika12"): Text 'dika12' is set on object 'Object Repository/Checkout/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:57:11 - [MESSAGE][PASSED] - Text 'dika12' is set on object 'Object Repository/Checkout/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:57:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/input_Username_password"), "fXA3uZeumTE="): Text ****** has been set on object 'Object Repository/Checkout/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:57:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Checkout/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:57:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/input_Username_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Checkout/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:57:13 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Checkout/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:57:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/div_TABLETS                        Shop Now")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/div_TABLETS                        Shop Now' is clicked on
+
+12-02-2024T11:57:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/div_TABLETS                        Shop Now' is clicked on
+
+12-02-2024T11:57:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart' is clicked on
+
+12-02-2024T11:57:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart' is clicked on
+
+12-02-2024T11:57:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/span_Color_rabbit")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/span_Color_rabbit' is clicked on
+
+12-02-2024T11:57:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/span_Color_rabbit' is clicked on
+
+12-02-2024T11:57:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/div_Quantity_plus")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/div_Quantity_plus' is clicked on
+
+12-02-2024T11:57:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/div_Quantity_plus' is clicked on
+
+12-02-2024T11:57:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART' is clicked on
+
+12-02-2024T11:57:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART' is clicked on
+
+12-02-2024T11:57:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/Page_Advantage Shopping/Tombol keranjang")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/Page_Advantage Shopping/Tombol keranjang' is clicked on
+
+12-02-2024T11:57:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/Page_Advantage Shopping/Tombol keranjang' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit chart" time="24.216" classname="Test Cases/Edit chart" status="PASSED">
+         <system-out><![CDATA[12-02-2024T11:57:23 - [TEST_CASE][PASSED] - Test Cases/Edit chart: Test Cases/Edit chart
+
+12-02-2024T11:57:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-02-2024T11:57:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-02-2024T11:57:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-02-2024T11:57:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-02-2024T11:57:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-02-2024T11:57:24 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:57:26 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+12-02-2024T11:57:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T11:57:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+12-02-2024T11:57:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/input_OR_username"), "dika12"): Text 'dika12' is set on object 'Object Repository/Checkout/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:57:33 - [MESSAGE][PASSED] - Text 'dika12' is set on object 'Object Repository/Checkout/Page_Advantage Shopping/input_OR_username'
+
+12-02-2024T11:57:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/input_Username_password"), "fXA3uZeumTE="): Text ****** has been set on object 'Object Repository/Checkout/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:57:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Checkout/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:57:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/input_Username_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Checkout/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:57:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Checkout/Page_Advantage Shopping/input_Username_password'
+
+12-02-2024T11:57:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/div_TABLETS                        Shop Now")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/div_TABLETS                        Shop Now' is clicked on
+
+12-02-2024T11:57:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/div_TABLETS                        Shop Now' is clicked on
+
+12-02-2024T11:57:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart' is clicked on
+
+12-02-2024T11:57:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart' is clicked on
+
+12-02-2024T11:57:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/span_Color_rabbit")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/span_Color_rabbit' is clicked on
+
+12-02-2024T11:57:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/span_Color_rabbit' is clicked on
+
+12-02-2024T11:57:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/div_Quantity_plus")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/div_Quantity_plus' is clicked on
+
+12-02-2024T11:57:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/div_Quantity_plus' is clicked on
+
+12-02-2024T11:57:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART' is clicked on
+
+12-02-2024T11:57:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART' is clicked on
+
+12-02-2024T11:57:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/Page_Advantage Shopping/Tombol keranjang")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/Page_Advantage Shopping/Tombol keranjang' is clicked on
+
+12-02-2024T11:57:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/Page_Advantage Shopping/Tombol keranjang' is clicked on
+
+12-02-2024T11:57:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/a_EDIT")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/a_EDIT' is clicked on
+
+12-02-2024T11:57:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/a_EDIT' is clicked on
+
+12-02-2024T11:57:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/div_Quantity_minus")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/div_Quantity_minus' is clicked on
+
+12-02-2024T11:57:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/div_Quantity_minus' is clicked on
+
+12-02-2024T11:57:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART")): Object: 'Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART' is clicked on
+
+12-02-2024T11:57:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T11:55:21 - [TEST_SUITE][PASSED] - Product Management: Test Cases/Edit chart]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

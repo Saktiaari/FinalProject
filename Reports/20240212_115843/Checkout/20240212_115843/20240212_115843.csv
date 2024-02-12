@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Checkout,Chrome 121.0.0.0,,,12-02-2024 11:58:46,12-02-2024 11:59:40,"54,224s",PASSED
+,,,,,,,
+Test Cases/Checkout,Chrome 121.0.0.0,,,12-02-2024 11:58:46,12-02-2024 11:59:40,"54,097s",PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,12-02-2024 11:58:46,12-02-2024 11:58:48,"1,367s",PASSED
+navigateToUrl(url),Chrome 121.0.0.0,,,12-02-2024 11:58:48,12-02-2024 11:58:51,"2,848s",PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,12-02-2024 11:58:51,12-02-2024 11:58:58,"7,943s",PASSED
+"setText(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/input_OR_username""), ""dika12"")",Chrome 121.0.0.0,,,12-02-2024 11:58:58,12-02-2024 11:58:59,"0,894s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/input_Username_password""), ""fXA3uZeumTE="")",Chrome 121.0.0.0,,,12-02-2024 11:58:59,12-02-2024 11:59:00,"1,114s",PASSED
+"sendKeys(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/input_Username_password""), Keys.chord(ENTER))",Chrome 121.0.0.0,,,12-02-2024 11:59:00,12-02-2024 11:59:01,"0,524s",PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/div_TABLETS                        Shop Now""))",Chrome 121.0.0.0,,,12-02-2024 11:59:01,12-02-2024 11:59:15,"14,115s",PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart""))",Chrome 121.0.0.0,,,12-02-2024 11:59:15,12-02-2024 11:59:18,"2,393s",PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/span_Color_rabbit""))",Chrome 121.0.0.0,,,12-02-2024 11:59:18,12-02-2024 11:59:29,"11,844s",PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/div_Quantity_plus""))",Chrome 121.0.0.0,,,12-02-2024 11:59:29,12-02-2024 11:59:30,"0,517s",PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART""))",Chrome 121.0.0.0,,,12-02-2024 11:59:30,12-02-2024 11:59:30,"0,292s",PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/Page_Advantage Shopping/Tombol keranjang""))",Chrome 121.0.0.0,,,12-02-2024 11:59:30,12-02-2024 11:59:32,"1,953s",PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/button_CHECKOUT (1,488.00)""))",Chrome 121.0.0.0,,,12-02-2024 11:59:32,12-02-2024 11:59:34,"1,603s",PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/button_NEXT""))",Chrome 121.0.0.0,,,12-02-2024 11:59:34,12-02-2024 11:59:37,"3,701s",PASSED
+"setText(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/input__safepay_username""), ""dika12"")",Chrome 121.0.0.0,,,12-02-2024 11:59:37,12-02-2024 11:59:38,"1,035s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/input__safepay_password""), ""fXA3uZeumTE="")",Chrome 121.0.0.0,,,12-02-2024 11:59:38,12-02-2024 11:59:39,"0,670s",PASSED
+"click(findTestObject(""Object Repository/Checkout/Page_Advantage Shopping/button_PAY NOW""))",Chrome 121.0.0.0,,,12-02-2024 11:59:39,12-02-2024 11:59:40,"0,977s",PASSED

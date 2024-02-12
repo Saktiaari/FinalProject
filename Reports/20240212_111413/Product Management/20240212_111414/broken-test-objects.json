@@ -8,7 +8,7 @@
       "proposedLocator": "//input[@name \u003d \u0027category\u0027 and @type \u003d \u0027checkbox\u0027]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/Checklist Speaker_customAttributes.png"
+      "pathToScreenshot": "Reports/20240212_111413/Product Management/20240212_111414/Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/Checklist Speaker_customAttributes.png"
     },
     {
       "approved": true,
@@ -18,7 +18,7 @@
       "proposedLocator": "div.AddToCard \u003e #menuCart \u003e path",
       "proposedLocatorMethod": "CSS",
       "recoveryMethod": "CSS",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Add chart/Page_Advantage Shopping/path_CSS.png"
+      "pathToScreenshot": "Reports/20240212_111413/Product Management/20240212_111414/Object Repository/Add chart/Page_Advantage Shopping/path_CSS.png"
     },
     {
       "approved": true,
@@ -28,7 +28,7 @@
       "proposedLocator": "//*[@id \u003d \u0027menuCart\u0027]",
       "proposedLocatorMethod": "BASIC",
       "recoveryMethod": "BASIC",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart_BASIC.png"
+      "pathToScreenshot": "Reports/20240212_111413/Product Management/20240212_111414/Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart_BASIC.png"
     }
   ]
 }
