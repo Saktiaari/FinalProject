@@ -32,7 +32,11 @@ WebUI.sendKeys(findTestObject('Object Repository/Add chart/Page_Advantage Shoppi
 
 WebUI.click(findTestObject('Object Repository/Add chart/Page_Advantage Shopping/div_TABLETS                        Shop Now'))
 
-WebUI.click(findTestObject('Object Repository/Add chart/Page_Advantage Shopping/path'))
+WebUI.click(findTestObject('Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart'))
 
-WebUI.click(findTestObject('Object Repository/Add chart/Page_Advantage Shopping/button_ADD TO CART'))
+WebUI.click(findTestObject('Object Repository/Checkout/Page_Advantage Shopping/span_Color_rabbit'))
+
+WebUI.click(findTestObject('Object Repository/Checkout/Page_Advantage Shopping/div_Quantity_plus'))
+
+WebUI.click(findTestObject('Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART'))
 

@@ -40,13 +40,13 @@ WebUI.click(findTestObject('Object Repository/Checkout/Page_Advantage Shopping/d
 
 WebUI.click(findTestObject('Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART'))
 
-WebUI.click(findTestObject('Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart'))
+WebUI.click(findTestObject('Object Repository/Checkout/Page_Advantage Shopping/Page_Advantage Shopping/Tombol keranjang'))
 
-WebUI.click(findTestObject('Object Repository/Checkout/Page_Advantage Shopping/a_EDIT'))
-
-WebUI.click(findTestObject('Object Repository/Checkout/Page_Advantage Shopping/div_Quantity_minus'))
-
-WebUI.click(findTestObject('Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART'))
+//WebUI.click(findTestObject('Object Repository/Checkout/Page_Advantage Shopping/a_EDIT'))
+//
+//WebUI.click(findTestObject('Object Repository/Checkout/Page_Advantage Shopping/div_Quantity_minus'))
+//
+//WebUI.click(findTestObject('Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART'))
 
 WebUI.click(findTestObject('Object Repository/Checkout/Page_Advantage Shopping/button_CHECKOUT (1,488.00)'))
 

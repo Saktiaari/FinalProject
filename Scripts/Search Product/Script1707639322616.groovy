@@ -40,12 +40,12 @@ switch (search) {
 	case search = 'Bose' :
 	WebUI.setText(findTestObject('Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'), "Bose")
 	WebUI.sendKeys(findTestObject('Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'), Keys.chord(Keys.ENTER))
-	WebUI.check(findTestObject('Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/Checklist Speaker'))
+	WebUI.check(findTestObject('Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/Page_Advantage Shopping/Speaker_Bose'))
 	break
 	case search = 'Logitech' :
 	WebUI.setText(findTestObject('Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'), "Logitech")
 	WebUI.sendKeys(findTestObject('Object Repository/Search/Page_Advantage Shopping/input_DEMO_mobile_search'), Keys.chord(Keys.ENTER))
-	WebUI.check(findTestObject('Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/Checklist Headphone'))
+	WebUI.check(findTestObject('Object Repository/Search/Page_Advantage Shopping/Page_Advantage Shopping/Page_Advantage Shopping/mice_logitech'))
 	break
 }
 

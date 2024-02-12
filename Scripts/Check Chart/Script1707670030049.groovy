@@ -40,5 +40,5 @@ WebUI.click(findTestObject('Object Repository/Checkout/Page_Advantage Shopping/d
 
 WebUI.click(findTestObject('Object Repository/Checkout/Page_Advantage Shopping/button_ADD TO CART'))
 
-WebUI.click(findTestObject('Object Repository/Checkout/Page_Advantage Shopping/svg_SHOP NOW_menuCart'))
+WebUI.click(findTestObject('Object Repository/Checkout/Page_Advantage Shopping/Page_Advantage Shopping/Tombol keranjang'))
 
