@@ -2,7 +2,7 @@
 
 ## Registrasi
 1. Buka browser
-2. Navigate ke URL
+2. Navigate ke URL (url dengan global variabel)
 3. Klik menu user
 4. Klik create new account
 5. Input username, email, password, confirm password
